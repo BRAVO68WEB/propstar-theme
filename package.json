@@ -1,0 +1,106 @@
+{
+  "name": "propstar",
+  "displayName": "Prop Star Theme",
+  "description": "The Theme with Multiple Outfits",
+  "publisher": "Bravo68web",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.57.0"
+  },
+  "scripts": {
+    "build:ext": "vsce package --no-yarn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BRAVO68WEB/propstar-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BRAVO68WEB/propstar-theme/issues",
+    "email": "me@bravo68web.me"
+  },
+  "homepage": "https://github.com/BRAVO68WEB/propstar-theme",
+  "keywords": [
+    "theme"
+  ],
+  "icon": "assets/icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Black Emerald Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/black-emerald.json"
+      },
+      {
+        "label": "Shinny Diamond Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shinny-diamond.json"
+      },
+      {
+        "label": "Surplur Blueberry Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/surplus-blueberry.json"
+      },
+      {
+        "label": "Dark Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      },
+      {
+        "label": "Light Prop",
+        "uiTheme": "vs",
+        "path": "./themes/light.json"
+      },
+      {
+        "label": "Improved Light Prop",
+        "uiTheme": "vs",
+        "path": "./themes/improved-light.json"
+      },
+      {
+        "label": "Natural Elements Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/natural-elements.json"
+      },
+      {
+        "label": "Nostalgic Sky Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nostalgic-sky.json"
+      },
+      {
+        "label": "Nostalgic Timid Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nostalgic-timid.json"
+      },
+      {
+        "label": "Ocean Breeze Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ocean-breeze.json"
+      },
+      {
+        "label": "Old Metallic Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/old-metallic.json"
+      },
+      {
+        "label": "Rock Stone Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rock-stone.json"
+      },
+      {
+        "label": "Shinny Gold Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shinny-gold.json"
+      },
+      {
+        "label": "Void Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/void.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^1.95.0"
+  }
+}
