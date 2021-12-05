@@ -21,13 +21,12 @@ A multivariant VS-Code Theme build with ❤️. All theme designs and colour com
 
 This theme collection is maintained by the following people:
 
-[![Procoder16](https://avatars.githubusercontent.com/u/71066110?v=4)](https://github.com/Procoder16) |
+[![BRAVO68WEB](https://avatars.githubusercontent.com/u/41448663?v=4)](https://github.com/BRAVO68WEB) |
+:---: |
+[BRAVO68WEB](https://github.com/BRAVO68WEB) |[![Procoder16](https://avatars.githubusercontent.com/u/71066110?v=4)](https://github.com/Procoder16) |
 :---: |
 [Procoder16](https://github.com/Procoder16) |
 
-[![BRAVO68WEB](https://avatars.githubusercontent.com/u/41448663?v=4)](https://github.com/BRAVO68WEB) |
-:---: |
-[BRAVO68WEB](https://github.com/BRAVO68WEB) |
 
 ## 📄 License
 
