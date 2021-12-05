@@ -17,14 +17,25 @@ A multivariant VS-Code Theme build with ❤️. All theme designs and colour com
 - Open the Command Palette with Ctrl+Shift+P or ⇧⌘P
 - Select Preferences: Color Theme and choose `Prop Star Theme`.
 
-## Team
+## 💫 Glimpse of some Themes
+
+![Black Emirald Prop](https://user-images.githubusercontent.com/71066110/144762276-f8bb74e9-49ab-4a85-bc59-93edb3bde3ad.png)
+
+![Natural Elements Prop](https://user-images.githubusercontent.com/71066110/144762283-5ae8e5ac-d197-45cc-91f3-7a13c39f0215.png)
+
+![Improved Light Prop](https://user-images.githubusercontent.com/71066110/144762288-103b1e02-27e1-4843-9b91-6ac2f9ab21d0.png)
+
+![Surplur Blueberry Prop](https://user-images.githubusercontent.com/71066110/144762291-462f5c5c-da96-4657-90e0-e114612c1df6.png)
+
+
+## 🤝 Team
 
 This theme collection is maintained by the following people:
 
 [![BRAVO68WEB](https://avatars.githubusercontent.com/u/41448663?v=4)](https://github.com/BRAVO68WEB) |
 :---: |
-[BRAVO68WEB](https://github.com/BRAVO68WEB) |[![Procoder16](https://avatars.githubusercontent.com/u/71066110?v=4)](https://github.com/Procoder16) |
-:---: |
+[BRAVO68WEB](https://github.com/BRAVO68WEB) |
+[![Procoder16](https://avatars.githubusercontent.com/u/71066110?v=4)](https://github.com/Procoder16) ||
 [Procoder16](https://github.com/Procoder16) |
 
 
