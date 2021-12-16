@@ -19,7 +19,7 @@ A multivariant VS-Code Theme build with ❤️. All theme designs and colour com
 
 ## 💫 Glimpse of some Themes
 
-![Black Emirald Prop](https://user-images.githubusercontent.com/71066110/144762276-f8bb74e9-49ab-4a85-bc59-93edb3bde3ad.png)
+![Shinny Emirald Prop](https://user-images.githubusercontent.com/71066110/144762276-f8bb74e9-49ab-4a85-bc59-93edb3bde3ad.png)
 
 ![Natural Elements Prop](https://user-images.githubusercontent.com/71066110/144762283-5ae8e5ac-d197-45cc-91f3-7a13c39f0215.png)
 
