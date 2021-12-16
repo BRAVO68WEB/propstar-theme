@@ -3,7 +3,7 @@
   "displayName": "Prop Star Theme",
   "description": "The Theme with Multiple Outfits",
   "publisher": "Bravo68web",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "engines": {
     "vscode": "^1.57.0"
   },
@@ -39,14 +39,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "Black Emerald Prop",
-        "uiTheme": "vs-dark",
-        "path": "./themes/black-emerald.json"
-      },
-      {
         "label": "Shinny Diamond Prop",
         "uiTheme": "vs-dark",
         "path": "./themes/shinny-diamond.json"
+      },
+      {
+        "label": "Shinny Gold Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shinny-gold.json"
+      },
+      {
+        "label": "Shinny Emerald Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shinny-emarld.json"
+      },
+      {
+        "label": "Shinny Ruby Prop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shinny-ruby.json"
       },
       {
         "label": "Surplur Blueberry Prop",
@@ -97,11 +107,6 @@
         "label": "Rock Stone Prop",
         "uiTheme": "vs-dark",
         "path": "./themes/rock-stone.json"
-      },
-      {
-        "label": "Shinny Gold Prop",
-        "uiTheme": "vs-dark",
-        "path": "./themes/shinny-gold.json"
       },
       {
         "label": "Void Prop",

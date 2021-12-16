@@ -1,6 +1,18 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "light",
+  "name": "Light",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "property.declaration": { "foreground": "#455059" },
+    "property": { "foreground": "#D26D32", "italic": true },
+    "variable": { "foreground": "#de456b" },
+    "variable.defaultLibrary": { "foreground": "#24B5A8" },
+    "class.declaration": { "foreground": "#935cd1" },
+    "namespace": { "foreground": "#3398DB" },
+    "parameter": { "foreground": "#CC71BC" },
+    "class.decorator": { "foreground": "#CC71BC" },
+    "enumMember": { "foreground": "#935cd1" }
+  },
   "colors": {
     "activityBar.background": "#f3f6f6",
     "activityBar.border": "#d1dadc",
@@ -44,6 +56,10 @@
     "dropdown.background": "#ffffff",
     "dropdown.border": "#8b99a7aa",
     "dropdown.foreground": "#455059",
+    "editorCursor.background": "#3398DB",
+    "editorBracketHighlight.foreground1": "#c9a022",
+    "editorBracketHighlight.foreground2": "#935cd1",
+    "editorBracketHighlight.foreground3": "#3398DB",
     "editor.background": "#ffffff",
     "editor.findMatchBackground": "#3398DB20",
     "editor.findMatchBorder": "#3398DB60",
@@ -261,7 +277,14 @@
         "support.other.namespace.php",
         "entity.other.attribute-name.namespace.xml",
         "record.accessor",
-        "entity.name.record.field.accessor"
+        "entity.name.record.field.accessor",
+        "storage.modifier.import.java",
+        "storage.modifier.import.groovy",
+        "meta.import.swift entity.name.type.swift",
+        "entity.name.variable.parameter.cs",
+        "meta.member.access.python",
+        "variable.other.property.ts",
+        "variable.other.property.js"
       ],
       "settings": { "foreground": "#D26D32", "fontStyle": "italic" }
     },
@@ -306,7 +329,9 @@
         "meta.function-call.generic",
         "meta.method-call.static.php",
         "meta.method-call.php",
-        "meta.class storage.type"
+        "meta.class storage.type",
+        "meta.method.groovy",
+        "meta.bracket.square.access"
       ],
       "settings": { "foreground": "#3398DB" }
     },
@@ -317,7 +342,8 @@
         "meta.import.elm support",
         "keyword.control.at-rule",
         "punctuation.definition.keyword",
-        "variable.control.import.include"
+        "variable.control.import.include",
+        "keyword.other.import.java"
       ],
       "settings": { "foreground": "#c9a022" }
     },
@@ -337,7 +363,13 @@
         "keyword.other.await",
         "storage.type.class.jsdoc",
         "punctuation.definition.block.tag.jsdoc",
-        "keyword.operator.assignment.cs"
+        "keyword.other.new",
+        "keyword.other.phpdoc",
+        "keyword.other.use.php",
+        "keyword.operator.logical.python",
+        "keyword.other.import.static.groovy",
+        "keyword.other.import.groovy",
+        "punctuation.definition.attribute.swift"
       ],
       "settings": { "foreground": "#c9a022" }
     },
@@ -347,7 +379,18 @@
       "settings": { "foreground": "#c9a022" }
     },
     {
-      "scope": ["keyword.operator.comparison", "storage.type.function.arrow", "keyword.operator.lua"],
+      "scope": [
+        "keyword.operator.comparison",
+        "storage.type.function.arrow",
+        "keyword.operator.lua",
+        "keyword.operator.assignment",
+        "keyword.operator.relational",
+        "keyword.operator.increment",
+        "keyword.operator.decrement",
+        "keyword.operator.logical",
+        "keyword.operator.arithmetic",
+        "keyword.operator.math"
+      ],
       "settings": { "foreground": "#c9a022" }
     },
     {
@@ -387,7 +430,20 @@
         "punctuation.definition.list.begin.python",
         "punctuation.definition.list.end.python",
         "text.html.vue-html meta.tag.block.any",
-        "entity.name.variable.tuple-element.cs"
+        "entity.name.variable.tuple-element.cs",
+        "keyword.operator.assignment.tsx",
+        "meta.definition.method.signature.java",
+        "meta.class.body.groovy",
+        "meta.definition.method.groovy meta.method.body.java meta.declaration.assertion.groovy",
+        "punctuation.definition.list.begin.erlang",
+        "meta.expression.parenthesized",
+        "meta.definition.function.swift meta.parameter-clause.swift",
+        "source.swift meta.function-call.swift",
+        "punctuation.section.embedded.end.swift source.swift",
+        "punctuation.definition.tag.begin.html.vue",
+        "punctuation.definition.tag.end.html.vue",
+        "source.lua",
+        "meta.function.lua"
       ],
       "settings": { "foreground": "#45505960" }
     },
@@ -395,7 +451,11 @@
       "scope": [
         "variable.language.this",
         "variable.language.special.self",
-        "variable.parameter.function.language.special.self"
+        "variable.parameter.function.language.special.self",
+        "variable.language.this.php punctuation.definition.variable.php",
+        "meta.class.body.php storage.type.php",
+        "variable.parameter.function.swift entity.name.function.swift",
+        "variable.other.jsdoc"
       ],
       "settings": { "foreground": "#D26D32", "fontStyle": "italic" }
     },
@@ -413,7 +473,14 @@
         "meta.function.lua keyword.control.lua",
         "storage.type.enum",
         "storage.type.interface",
-        "storage.type.type"
+        "storage.type.type",
+        "entity.name.type.class.java",
+        "support.class.php",
+        "entity.name.type.class.php",
+        "entity.other.inherited-class.php",
+        "entity.name.type.class.groovy",
+        "storage.type.rust  ",
+        "entity.name.type.class.swift"
       ],
       "settings": { "foreground": "#24B5A8", "fontStyle": "italic" }
     },
@@ -425,12 +492,25 @@
         "punctuation.definition.string",
         "punctuation.definition.string.template",
         "punctuation.definition.string.begin",
+        "punctuation.definition.string.end.html source.js-ignored-vscode",
         "punctuation.definition.string.end",
         "string.other.link",
         "constant.character.escape.regexp",
-        "variable.parameter.url"
+        "variable.parameter.url",
+        "constant.other.symbol.quoted.single.erlang",
+        "constant.other.symbol.quoted.single.erlang punctuation.definition.symbol.begin.erlang",
+        "constant.other.symbol.quoted.single.erlang punctuation.definition.symbol.end.erlang"
       ],
       "settings": { "foreground": "#37ae6f" }
+    },
+    {
+      "scope": [
+        "string.quoted.docstring.multi.python",
+        "string.quoted.double.block.python punctuation.definition.string.end.python",
+        "string.quoted.double.block.python punctuation.definition.string.begin.python",
+        "string.quoted.double.block.python"
+      ],
+      "settings": { "foreground": "#37ae6f60" }
     },
     {
       "scope": [
@@ -439,7 +519,19 @@
         "support.class",
         "storage.type",
         "entity.other.inherited-class",
-        "keyword.type"
+        "keyword.type",
+        "storage.type.java",
+        "storage.type.primitive.java",
+        "storage.type.generic.java",
+        "keyword.other.type",
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php source.php",
+        "punctuation.section.embedded.end.php",
+        "storage.type.object.array.java",
+        "storage.type.primitive.groovy",
+        "storage.type.groovy",
+        "meta.definition.type.body.swift meta.function-call.swift",
+        "meta.definition.type.class.swift meta.inheritance-clause.swift"
       ],
       "settings": { "foreground": "#935cd1" }
     },
@@ -453,10 +545,11 @@
         "meta.method.body",
         "entity.name.variable",
         "punctuation.definition.variable",
-        "support.variable.property",
         "meta.class variable.object.property",
         "variable.other.constant entity.name.function",
-        "entity.name.variable.tuple-element.cs punctuation.separator.colon.cs"
+        "entity.name.variable.tuple-element.cs punctuation.separator.colon.cs",
+        "meta.definition.variable.name.groovy",
+        "meta.body.struct.cpp"
       ],
       "settings": { "foreground": "#de456b" }
     },
@@ -493,7 +586,12 @@
         "meta.tag.inline.any",
         "source.css-ignored-vscode",
         "meta.tag.metadata.style.end.html",
-        "text.html.vue invalid.illegal.character-not-allowed-here.html"
+        "text.html.vue invalid.illegal.character-not-allowed-here.html",
+        "meta.tag.inline.i.start.html",
+        "meta.tag.structure.div.start.html",
+        "punctuation.definition.tag.end.html.vue",
+        "punctuation.definition.tag.begin.html.vue",
+        "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": { "foreground": "#3398DBaa" }
     },
